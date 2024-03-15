@@ -14,7 +14,7 @@ export const Signup = () => {
 
   return (
     <div>
-        <h1 style={{ textAlign: 'center', textDecoration: 'underline dotted' }}>Signup page</h1>
+        <h1 style={{ textAlign: 'center', textDecoration: 'none' }}>Signup page</h1>
         <form onSubmit={handlesignup}>
             <label>Username:</label>
             <input type='text' value={username} onChange={(e)=>{

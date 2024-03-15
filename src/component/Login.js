@@ -19,7 +19,7 @@ export const Login = () => {
         const userExit=userlist.some(u=>u.username===username && u.password===password)
         if(userExit){
             auth.login(username)
-            navigate('/bmi')
+            navigate('/')
         }else{
             alert("invalid password or user")
         }
@@ -27,7 +27,7 @@ export const Login = () => {
 
   return (
     <div>
-        <h1 style={{ textAlign: 'center', textDecoration: 'underline dotted' }}>Login page</h1>
+        <h1 style={{ textAlign: 'center', textDecoration: 'none' }}>Login page</h1>
         <form onSubmit={handlelogin}>
             <label>Username:</label>
             <input type='text' value={username} onChange={(e)=>{
