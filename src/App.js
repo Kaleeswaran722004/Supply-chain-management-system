@@ -8,8 +8,10 @@ import { Auth } from './component/Auth';
 import { Protected } from './component/Protected';
 import Nomatch from './component/Nomatch';
 import Home from './component/Home';
-import Admin from './component/Admin';
-import User from './component/User';
+
+import { User } from './component/User';
+import { Admin } from './component/Admin';
+
 function App() {
   return (
     <div className="App">

@@ -1,11 +1,17 @@
-import React from 'react'
 
-const User = () => {
+import React from 'react'
+import { useAuth } from './Auth'
+export const User = () => {
+    const auth=useAuth()
+    const handlelogout=()=>{
+        auth.logout()
+    }
   return (
     <div>
-      User
+
+      <br></br>
+      Welcome to our website {auth.user}<br></br><br></br>
+      <button className='prob' onClick={handlelogout}>logout</button>
     </div>
   )
 }
-
-export default User
