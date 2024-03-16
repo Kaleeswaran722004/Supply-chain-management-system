@@ -8,9 +8,14 @@ import { Auth } from './component/Auth';
 import { Protected } from './component/Protected';
 import Nomatch from './component/Nomatch';
 import Home from './component/Home';
-
-import { User } from './component/User';
+import { Profile } from './component/Profile';
+import About from './component/About';
+import Service from './component/Service';
+import Contact from './component/Contact';
 import { Admin } from './component/Admin';
+import { User } from './component/User';
+
+
 
 function App() {
   return (
@@ -19,14 +24,14 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/*' element={<Nomatch/>}/>
-        <Route path='/users' element={<Protected>
+        <Route path='/user' element={<Protected>
           <User/>
         </Protected>}></Route>
         <Route path='/login' element={<Login/>}/>
-        <Route path='/Admin' element={<Protected><Admin/></Protected>
+        <Route path='/Admin' element={<Protected><Admin/></Protected>}/>
+        <Route path='/profile' element={<Protected><Profile/></Protected>}/>
           
-      }/>
+      
         <Route path='/signup' element={<Signup/>}/>
       </Routes>
       </Auth>

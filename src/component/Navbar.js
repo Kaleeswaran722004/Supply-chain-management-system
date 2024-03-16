@@ -8,8 +8,9 @@ export const Navbar = () => {
         <nav className='navbar'>
         <h2>Supply Chain Management System</h2>   
         <NavLink to='/'>Home</NavLink>
-        <NavLink to='/Admin'>Admin</NavLink>
+        {auth.user=='admin'&&<NavLink to='Admin'>Admin</NavLink>}
         <NavLink to='/User'>User</NavLink>
+        <NavLink to='/profile'>Profile</NavLink>
         {!auth.user && <NavLink to='/login'>Login</NavLink>}
         {!auth.user && <NavLink to='/signup'>Signup</NavLink>}
         </nav>

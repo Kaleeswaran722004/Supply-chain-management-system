@@ -95,6 +95,41 @@
       "username": "kali",
       "email": "kali@gmail.com",
       "password": "123"
+    },
+    {
+      "id": "68c4",
+      "username": "karthi",
+      "email": "kk@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "465b",
+      "username": "admin",
+      "email": "admi@g.com",
+      "password": "admin"
+    },
+    {
+      "id": "ef53",
+      "username": "jus",
+      "email": "jus@13",
+      "password": "456"
+    }
+  ],
+  "Students": [
+    {
+      "id": "1",
+      "name": "ka",
+      "age": "1"
+    },
+    {
+      "id": "1",
+      "name": "kali",
+      "age": "3"
+    },
+    {
+      "id": "3",
+      "name": "anand",
+      "age": "20"
     }
   ]
 }
