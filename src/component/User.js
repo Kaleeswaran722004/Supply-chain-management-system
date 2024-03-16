@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
+
 export const User = () => {
 
   useEffect(()=>{
@@ -21,8 +22,8 @@ export const User = () => {
         <div className='single-user'>
         <img className="image-user" alt="user profile" src={x.image}/>
         <h4>Name:{x.id}</h4>
-        <h4>Name:{x.name}</h4>
-        <h4>Age:{x.age}</h4>
+        <h4>quantity:{x.name}</h4>
+        <h4>prize:{x.age}</h4>
 
       </div>
       ))}

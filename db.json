@@ -118,18 +118,8 @@
   "Students": [
     {
       "id": "1",
-      "name": "ka",
-      "age": "1"
-    },
-    {
-      "id": "1",
-      "name": "kali",
-      "age": "3"
-    },
-    {
-      "id": "3",
-      "name": "anand",
-      "age": "20"
+      "name": "1",
+      "age": "2"
     }
   ]
 }

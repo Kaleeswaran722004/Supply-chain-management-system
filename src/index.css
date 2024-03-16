@@ -32,7 +32,7 @@ code {
 form{
   border: 1px solid black;
   border-radius: 10px;
-  background: grey;
+  background:aqua;
   margin: 100px;
   margin-left: 550px;
   margin-right: 550px;
@@ -81,4 +81,44 @@ h2{
 .hom1
 {
   text-align: center;
+}
+thead{
+  background-color:aqua;
+  
+}
+th,td{
+  padding: 20px;
+  border-bottom: 1px solid grey;
+
+  
+}
+.i{
+  background-color: white
+  
+}
+html{
+ background-color: aliceblue;
+}
+table{
+  border-collapse: collapse;
+  margin-left: 20px; 
+}
+.user-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-user{
+  background-color:grey;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.image-user{
+  height: 200px;
 }
