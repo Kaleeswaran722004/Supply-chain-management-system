@@ -24,7 +24,7 @@ export const User = () => {
         <h4>Name:{x.id}</h4>
         <h4>quantity:{x.name}</h4>
         <h4>prize:{x.age}</h4>
-
+        <button>BUY</button>
       </div>
       ))}
         

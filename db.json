@@ -117,9 +117,16 @@
   ],
   "Students": [
     {
-      "id": "1",
-      "name": "1",
-      "age": "2"
+      "id": "Wheat",
+      "name": "5",
+      "age": "1200",
+      "image": "https://cdn.britannica.com/90/94190-050-C0BA6A58/Cereal-crops-wheat-reproduction.jpg"
+    },
+    {
+      "id": "Rice",
+      "name": "10",
+      "age": "1500",
+      "image": "https://media.istockphoto.com/id/153737841/photo/rice.webp?b=1&s=170667a&w=0&k=20&c=SF6Ks-8AYpbPTnZlGwNCbCFUh-0m3R5sM2hl-C5r_Xc="
     }
   ]
 }
