@@ -10,7 +10,7 @@ import aimg from '../component/agri.webp';
 const Home = () => {
   return (
     <div className='hom1'>
-      <img src={aimg}/>
+      <img className='abc'src={aimg}/>
       <h1>Welcome to the Supply Chain Management System</h1>
       
       <h1>Introduction</h1>
