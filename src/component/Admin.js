@@ -58,7 +58,7 @@ export const Admin = () => {
             <label>Name:</label>
             <input className=''  type="text" value={id} onChange={(e)=>setId(e.target.value)}/><br></br>
             <label>Quantity:</label>
-            <input className=''  type="number" value={name} onChange={(e)=>setName(e.target.value)}/><br></br>
+            <input className=''  type="text" value={name} onChange={(e)=>setName(e.target.value)}/><br></br>
             <label>Price:</label>
             <input className=''  type="number" value={age} onChange={(e)=>setAge(e.target.value)}/><br></br>
              <label>Product Image:</label>
@@ -102,7 +102,7 @@ export const Admin = () => {
             <label> Name:</label>
             <input type="text" value={id1} onChange={(e)=>setId1(e.target.value)}/><br></br>
             <label>Quantity:</label>
-            <input type="number" value={name1} onChange={(e)=>setName1(e.target.value)}/><br></br>
+            <input type="text" value={name1} onChange={(e)=>setName1(e.target.value)}/><br></br>
             <label>Price</label>
             <input type="number" value={age1} onChange={(e)=>setAge1(e.target.value)}/><br></br>
             <label>Product Image</label>

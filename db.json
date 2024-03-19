@@ -117,10 +117,22 @@
   ],
   "Students": [
     {
-      "id": "Rice",
-      "name": "10",
-      "age": "1500",
-      "image": "https://media.istockphoto.com/id/153737841/photo/rice.webp?b=1&s=170667a&w=0&k=20&c=SF6Ks-8AYpbPTnZlGwNCbCFUh-0m3R5sM2hl-C5r_Xc="
+      "id": "Wheat",
+      "name": "5kg",
+      "age": "500",
+      "image": "https://cdn.britannica.com/90/94190-050-C0BA6A58/Cereal-crops-wheat-reproduction.jpg"
+    },
+    {
+      "id": "Tomato ",
+      "name": "5Kg",
+      "age": "100",
+      "image": "https://t4.ftcdn.net/jpg/06/47/42/41/360_F_647424157_gjcAdF1044lhsh4gQfWaHhjzzjMMAOcF.jpg"
+    },
+    {
+      "id": "Carrot",
+      "name": "5Kg",
+      "age": "200",
+      "image": "https://www.shutterstock.com/image-photo/carrot-on-ground-fresh-carrots-260nw-2283615245.jpg"
     }
   ]
 }
